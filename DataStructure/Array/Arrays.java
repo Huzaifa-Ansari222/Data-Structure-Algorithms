@@ -1,6 +1,14 @@
+/*
+- Arrays are used to store multiple values in a single variable
+- store similar data type
+- fixed size
+- mention size on start
+- not dynamic array
+*/
 package DataStructure.Array;
 
-public class array {
+public class Arrays {
+
     public static void main(String[] args) {
 
         int[] arr = {10, 20, 30, 40, 50};
@@ -58,10 +66,10 @@ public class array {
     }
 
     public static void swapChange(int []a , int i , int j){
-    int temp = a[i];//a[i] vlaue goes to temp
-    a[i] = a[j];// a[j] value goes to one
-    a[j] = temp;//temp value goes to a[j]
-    System.out.println("inside swapChnge value_"+a[i ]+"_"+a[j]);
+        int temp = a[i];//a[i] vlaue goes to temp
+        a[i] = a[j];// a[j] value goes to one
+        a[j] = temp;//temp value goes to a[j]
+        System.out.println("inside swapChnge value_"+a[i ]+"_"+a[j]);
 
     }
 }
