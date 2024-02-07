@@ -1,8 +1,7 @@
 package DataStructure.String;
 
-public class strings {
+public class Strings {
     public static void main(String[] args) {
-
-        System.out.println("hi from string");
+        System.out.println("hi string");
     }
 }
