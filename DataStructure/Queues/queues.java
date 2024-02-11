@@ -7,6 +7,9 @@ public class queues {
         System.out.println("hi from queue");
         System.out.println("hi from queue");
         System.out.println("hi from queue");
-        
+        System.out.println("hi from queue");
+        System.out.println("hi from queue");
+        System.out.println("hi from queue");
+
     }
 }
