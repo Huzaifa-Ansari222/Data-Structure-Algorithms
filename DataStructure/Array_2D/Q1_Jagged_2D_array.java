@@ -1,7 +1,7 @@
 //unequal row length called jagged
 package DataStructure.Array_2D;
 
-public class Jagged_2D_array {
+public class Q1_Jagged_2D_array {
     public static void main(String[] args) {
         //    int [] [] arr = new int[] [4]; //not allow
         int [] [] arr = new int[3] []; //allow

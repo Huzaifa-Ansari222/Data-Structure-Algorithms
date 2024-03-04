@@ -9,7 +9,7 @@ output= 1,4,7,8,5,2,3,6,9
 
 package DataStructure.Array_2D;
 
-public class Waved_2Darray {
+public class Q2_Waved_2Darray {
     public static void main(String[] args) {
         int [][] arr ={
                 {1,2,3},
