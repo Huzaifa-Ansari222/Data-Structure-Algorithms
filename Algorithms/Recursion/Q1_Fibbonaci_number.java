@@ -9,6 +9,5 @@ public class Q1_Fibbonaci_number {
             return n;
         }
         return fibo(n-1) + fibo(n-2);
-
     }
 }
