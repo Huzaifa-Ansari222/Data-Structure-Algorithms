@@ -2,16 +2,13 @@ package Algorithms.Recursion;
 
 public class Q1_Fibbonaci_number {
     public static void main(String[] args) {
-        int n =  4;
-        fibo(n);
+        System.out.println(   fibo(7) );
     }
     static int fibo(int n){
-        if (n==1){
-            return 1;
+        if (n<2){ //0-> 0 ; 1-> 1 ;
+            return n;
         }
-        fibo(n-1 );
-
-        return n;
+        return fibo(n-2) + fibo(n-1);
 
     }
 }
