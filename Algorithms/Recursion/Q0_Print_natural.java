@@ -1,6 +1,6 @@
 package Algorithms.Recursion;
 
-public class Recursion_memory1 {
+public class Q0_Print_natural {
     public static void main(String[] args) {
      int n=1;
      print(n);
