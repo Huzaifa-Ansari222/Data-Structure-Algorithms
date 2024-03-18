@@ -8,6 +8,8 @@ public class Q1_Fibbonaci_number {
         if (n<2){ //0-> 0 ; 1-> 1 ;
             return n;
         }
+        //LHS  will excute first then the RHS will start execute and + and give result to the functionn where it was called
+
         return fibo(n-1) + fibo(n-2);
     }
 }
