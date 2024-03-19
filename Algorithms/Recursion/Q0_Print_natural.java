@@ -11,6 +11,7 @@ public class Q0_Print_natural {
         }
         print(n+1);
 //        System.out.println(n);// 5 4 3 2 1
+        // print revere
 
     }
 
