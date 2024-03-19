@@ -9,7 +9,7 @@ public class Q1_Fibbonaci_number {
             return n;
         }
         //LHS  will excute first then the RHS will start execute and + and give result to the functionn where it was called
-
+        //function willl remain in stack till it fully excute
         return fibo(n-1) + fibo(n-2);
     }
 }
