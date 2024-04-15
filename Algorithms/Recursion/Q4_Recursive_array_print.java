@@ -9,11 +9,12 @@ public class Q4_Recursive_array_print {
         // base case
         if(idx >= arr.length) return; //0>=6
         System.out.println("arr: "+arr.length+ " idx: " +idx);
+
         //self work
         System.out.println(arr[idx]);
 
         //recusive call
-        printArray(arr, idx +1);
+        printArray(arr, idx +1); //parameter used for array recursive
 
     }
 }
