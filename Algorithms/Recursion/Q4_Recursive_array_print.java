@@ -6,6 +6,7 @@ public class Q4_Recursive_array_print {
         printArray(arr , 0);
     }
     static void printArray(int []arr, int idx){
+
         // base case
         if(idx >= arr.length) return; //0>=6
         System.out.println("arr: "+arr.length+ " idx: " +idx);
