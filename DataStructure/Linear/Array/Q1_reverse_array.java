@@ -5,8 +5,8 @@ public class Q1_reverse_array {
         int [] arr = {10,20,30,40,50};
         System.out.println("wihtout swap ");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] +"|");
-        }//10|20|30|40|50|
+            System.out.print(arr[i] +"|"); //10|20|30|40|50|
+        }
 
         System.out.println(""); //line break
 
@@ -20,6 +20,7 @@ public class Q1_reverse_array {
     public static void swap(int [] arr ){
         int i = 0;
         int j = arr.length-1;
+        // swapping element first from last
         while( i <= j ) {
             int temp = arr[i];
             arr[i] = arr[j];

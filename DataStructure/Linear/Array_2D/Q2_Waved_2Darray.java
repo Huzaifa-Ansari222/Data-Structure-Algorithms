@@ -22,13 +22,13 @@ public class Q2_Waved_2Darray {
     static void printWave(int [][] array) {
         for (int col = 0; col < array[0].length; col++) {
             if(col % 2 == 0){
-//                print down
+//                move down
                 for (int row = 0; row < array.length; row++) {
                     System.out.println(array[row][col]);
                 }
             }
             else {
-//                print up
+//                move up
                 for (int row = array.length-1 ; row >= 0; row--) {
                     System.out.println(array[row][col]);
                 }

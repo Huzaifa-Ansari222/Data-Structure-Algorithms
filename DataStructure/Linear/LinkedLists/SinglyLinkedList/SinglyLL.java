@@ -1,8 +1,8 @@
 package DataStructure.Linear.LinkedLists.SinglyLinkedList;
 
 public class SinglyLL {
-    class Node {
-        //node attribute
+    public  static class Node {
+        //Node attribute
         int data;
         Node next; //reference to the next node in the list, link between nodes.
 
@@ -13,25 +13,28 @@ public class SinglyLL {
         }
     }
     public static void main(String[] args) {
-            // create instance of outer class because Node class is non-static class.
-            // to access it you need to first create an instance of the outer class which is SinglyLL
-            SinglyLL singlyll = new SinglyLL( ); //allows access to the inner Node class.
 
             // create Object of Node
-            Node nodeA = singlyll.new Node (1);
-            Node nodeB = singlyll.new Node (2);
-            Node nodeC = singlyll.new Node (3);
+            Node nodeA = new Node (1);
+            System.out.println("A address: "+nodeA);
+            Node nodeB = new Node (2);
+            System.out.println("B address: "+nodeB);
+            Node nodeC = new Node (3);
+            System.out.println("C address: "+nodeC);
+
 
             // linking Node
-            nodeA.next = nodeB;
-            nodeB.next =  nodeC;
-            nodeC.next = null;
+            nodeA.next = nodeB;// [1] -> [2]  [3]  null
+            System.out.println("A+address B: "+nodeA.next);//nodeA have adress of nodeB
+            nodeB.next =  nodeC;// [1] -> [2] -> [3]  null
+            System.out.println("B+address C"+nodeB.next);//nodeB have adress of nodeC
+            nodeC.next = null; // [1] -> [2] -> [3] -> null
 
-        // Display linked list: [1] -> [2] -> [3] -> null
+        //Display linked list: [1] -> [2] -> [3] -> null
         System.out.print("[A: " + nodeA.data +"| Next]  --> ");  // Output: 1
-        System.out.print("[B: " + nodeA.next.data+"| Next]  --> ");  // Output: 2
+        System.out.print("[B: " + nodeB.data+"| Next]  --> ");  // Output: 2
         System.out.print("[C: " + nodeA.next.next.data+"| Next]  --> null");  // Output: 3
 
-        //  [Node A: 1 | Next] --> [Node B: 2 | Next] --> [Node C: 3 | Next] --> null
+        //[Node A: 1 | Next] --> [Node B: 2 | Next] --> [Node C: 3 | Next] --> null
     }
 }

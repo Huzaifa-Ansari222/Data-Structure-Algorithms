@@ -1,0 +1,15 @@
+@startuml
+package DataStructure.Linear.LinkedLists.SinglyLinkedList {
+    class SinglyLL {
+        +main(String[] args)
+    }
+
+    class Node {
+        -int data
+        -Node next
+        +Node(int data)
+    }
+
+    SinglyLL --> Node : contains >
+}
+@enduml

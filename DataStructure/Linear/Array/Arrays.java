@@ -23,27 +23,30 @@ public class Arrays {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
+
         System.out.println(":::::::::print backward:::::::::");
         for (int i = arr.length - 1; i > 0; i--) {
             System.out.println(arr[i]);
         }
+
         System.out.println(":::::::::used enchance for loop::::::::::");
-        //read only
+        //can read only
         //forward only
-        for (int value : arr) {
+        for (int value : arr) { //var : array
             System.out.println(value);//value can read element only
         }
-        //example
-        System.out.println("::::::::example: 1 ::::::");
-        int[] arr1 = arr; //both point same address
+
+        //example 1
+        System.out.println("::::::::example: 1::::::::::");
+        int[] arr1 = arr; //both point same address /both value same
         arr1[3] = 100;
-        System.out.println(arr[3]);//100
-        System.out.println(arr1[3]);//100
+        System.out.println("arr:"+arr[3]);//100
+        System.out.println("arr1:"+arr1[3]);//100
 
 
-
-        int i = 0; //10 at index 0
-        int j = 2; //30 at index 2
+        System.out.println(":::::::::index::::::::::");
+        int i = 0; //value 10 at index 0
+        int j = 2; //vlaue 30 at index 2
 
         System.out.println("::::::::case : 1:::::::");
         System.out.println("before swap func_"+arr[i] +" "+arr[j]);//10,30 element on i,j index
