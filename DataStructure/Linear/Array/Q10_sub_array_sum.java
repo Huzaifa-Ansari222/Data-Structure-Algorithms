@@ -18,7 +18,7 @@ public class Q10_sub_array_sum {
                     sum = sum + arr[i];
                     System.out.print(arr[i] + " ");
                 }
-                System.out.println("   = sum :"+sum);
+                System.out.println("  --> "+sum);
                 sum=0;
             }
         }
