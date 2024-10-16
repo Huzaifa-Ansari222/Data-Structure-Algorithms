@@ -1,8 +1,8 @@
 package DataStructure.Linear.Array;
 
-public class Q10_sub_array_sum {
+public class Q11_max_in_subArray {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4};
+        int[] arr = {-1,1, 2, 3, 4,};
 
         subArraySum(arr);
 
@@ -20,9 +20,13 @@ public class Q10_sub_array_sum {
                     System.out.print(arr[i] + " +");
                 }
                 System.out.println("  --> "+sum);
+                if (max < sum){
+                    max=sum;
+                }
                 sum=0;
             }
         }
+        System.out.println(" max value in sub array --> "+max);
     }
 }
 
