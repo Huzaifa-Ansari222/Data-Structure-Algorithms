@@ -14,12 +14,12 @@ public class Q2_Waved_2Darray {
         int [][] arr ={
                 {1,2,3},
                 {4,5,6},
-                {7,8,9}
+                {7,8,9,10}
         };
 //        System.out.println(printWave(arr));
         printWave(arr);
     }
-    static void printWave(int [][] array) {
+        static void printWave(int [][] array) {
         for (int col = 0; col < array[0].length; col++) {
             if(col % 2 == 0){
 //                move down
