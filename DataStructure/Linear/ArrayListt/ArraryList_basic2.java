@@ -2,11 +2,11 @@
 // dynamic array
 //size not fixed
 
-package DataStructure.Linear.Array;
+package DataStructure.Linear.ArrayListt;
 import  java.util.ArrayList ;
 
 
-public class ArraryList {
+public class ArraryList_basic2 {
     public static void main(String[] args) {
 
         //ArrayList<type> name = new ArrayList<type>()
