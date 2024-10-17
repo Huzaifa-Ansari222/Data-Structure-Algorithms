@@ -51,20 +51,20 @@ public class Strings {
 
         //charat(index) to break string
         String newStr = "huzz";
-        char newStrRes0 = newStr.charAt(0);
-        char newStrRes1 = newStr.charAt(1);
-        char newStrRes2 = newStr.charAt(2);
-        char newStrRes3 = newStr.charAt(3);
+        char newStrRes0 = newStr.charAt(0);//h
+        char newStrRes1 = newStr.charAt(1);//u
+        char newStrRes2 = newStr.charAt(2);//z
+        char newStrRes3 = newStr.charAt(3);//z
         System.out.println(newStrRes0);
         System.out.println(newStrRes1);
         System.out.println(newStrRes2);
         System.out.println(newStrRes3);
         //to find length of string without knowing the string
-        System.out.println(newStr.length()-1);
+        System.out.println(newStr.length()-1);// 4-1 = 3
 
         //substring take range (to , from)
-        System.out.println("substring");
-        System.out.println(newStr.substring(0,2));
+        System.out.print("substring: ");
+        System.out.println(newStr.substring(0,2));//hu
 
     }
 }
