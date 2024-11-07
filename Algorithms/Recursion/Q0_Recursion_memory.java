@@ -2,7 +2,7 @@
 // function finished execution its removed from stack and the flow of program is restored to where the function was called
 package Algorithms.Recursion;
 
-public class Recursion_memory {
+public class Q0_Recursion_memory {
     public static void main(String[] args) {
         int n;
         print();
