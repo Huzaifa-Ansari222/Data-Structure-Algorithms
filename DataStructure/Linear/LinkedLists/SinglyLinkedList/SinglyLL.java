@@ -4,7 +4,10 @@ public class SinglyLL {
     public  static class Node {
         //Node attribute
         int data;
+
         Node next; //reference to the next node in the list, link between nodes.
+        // if Classname used as Datatype inside that Class it means it refrence/pointing itself
+        // Reference to the next node (self-referencing)
 
         //constructor
         public Node (int data) {

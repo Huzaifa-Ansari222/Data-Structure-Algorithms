@@ -3,7 +3,7 @@ package DataStructure.Linear.Array;
 public class Q12_Product_except_self {
     public static void main(String[] args) {
         int [] nums ={1,2,3,4};
-         int [] ans = productExceptSelf(nums);
+        int [] ans = productExceptSelf(nums);
         // Print the answer array
         for (int num : ans) {
             System.out.println(num);
