@@ -18,9 +18,48 @@ package "Backend" as Backend {
     component "Database (MongoDB)" as Database
 }
 
+package "Database Design" as DatabaseDesign {
+    database "Users Collection" as Users {
+        "_id: ObjectId"
+        "username: String"
+        "email: String"
+        "password: String (hashed)"
+        "profilePicture: String"
+        "bio: String"
+        "followers: Array<ObjectId>"
+        "following: Array<ObjectId>"
+    }
+
+    database "Tweets Collection" as Tweets {
+        "_id: ObjectId"
+        "authorId: ObjectId"
+        "content: String"
+        "imageUrl: String"
+        "likes: Array<ObjectId>"
+        "comments: Array<ObjectId>"
+        "createdAt: Date"
+    }
+
+    database "Notifications Collection" as Notifications {
+        "_id: ObjectId"
+        "userId: ObjectId"
+        "type: String (e.g., 'like', 'follow')"
+        "content: String"
+        "createdAt: Date"
+    }
+
+    database "Comments Collection" as Comments {
+        "_id: ObjectId"
+        "tweetId: ObjectId"
+        "authorId: ObjectId"
+        "content: String"
+        "createdAt: Date"
+    }
+}
+
 package "External Services" as External {
     component Cloudinary {
-'        attachImage
+       "attachImage"
     }
 }
 
