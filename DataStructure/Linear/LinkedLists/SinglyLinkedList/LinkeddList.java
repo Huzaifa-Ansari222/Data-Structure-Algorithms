@@ -1,4 +1,8 @@
 package DataStructure.Linear.LinkedLists.SinglyLinkedList;
+/**
+ *🧠 Bonus: IntelliJ Javadoc Tip:
+ * Just type /** above any method or class and press Enter — IntelliJ auto-generates the Javadoc template for you! 😎
+ */
 
 public class LinkeddList {
     public static void main(String[] args) {
@@ -66,3 +70,5 @@ public class LinkeddList {
                   ^
 [current] ────────┘ (starts from node1)
 */
+
+
