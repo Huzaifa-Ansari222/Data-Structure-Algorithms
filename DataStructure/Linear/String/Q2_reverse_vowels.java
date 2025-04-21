@@ -1,7 +1,5 @@
 package DataStructure.Linear.String;
 
-import java.util.ArrayList;
-
 public class Q2_reverse_vowels {
     public static void main(String[] args) {
       String s = "huzAifA";

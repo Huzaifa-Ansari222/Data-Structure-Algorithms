@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class Q1_Plindrome {
     public static void main(String[] args) {

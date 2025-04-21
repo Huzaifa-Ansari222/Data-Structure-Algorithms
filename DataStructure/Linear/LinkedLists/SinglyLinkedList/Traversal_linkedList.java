@@ -37,7 +37,6 @@ public class Traversal_linkedList {
         }
     }
 
-
     public void addFirst(int data){
         //make object from Node class
         Node node = new Node(data);// we have constuctor so we data data to contructor
