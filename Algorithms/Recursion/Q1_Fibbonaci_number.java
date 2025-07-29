@@ -2,7 +2,7 @@ package Algorithms.Recursion;
 
 public class Q1_Fibbonaci_number {
     public static void main(String[] args) {
-        System.out.println(   fibo(6) ); //8
+        System.out.println(   fibo(5) ); //8
     }
     static int fibo(int n){
         if (n<2){ //0-> 0 ; 1-> 1 ;
